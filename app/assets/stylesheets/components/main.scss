@@ -68,48 +68,51 @@ section {
 /// MATCH GRID
 .full_container{
   position: relative;
-  width: 50%;
-  height: 75%;
-  margin: auto;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%
 }
 
 .top_baner{
-  width: 52vw;
+  width: 625px;
   position:absolute;
-  top: -3.3vw;
-  left: -20px;
+  top: -40px;
+  left: -12px;
   margin: auto;
 }
 
 .match_grid {
   display: grid;
-  width: 100%;
-  height: 100%;
-  margin: auto;
+  // width: 38vw;
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
   border: 4px solid white;
   background-color:rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
 }
 
 .team {
-  margin-top: 60px;
+  // margin-top: 20px;
   text-align: center;
 }
 
 .team > img {
-  width: 20vw;
+  width: 220px;
+  // margin-bottom: 20px
 }
 
 .team > h2 {
   color: white;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
+  font-size: 26px
 }
 
-.team > img {
-  margin-bottom: 20px
-}
 
 .btn_imprimer {
   margin-top: 20px;
