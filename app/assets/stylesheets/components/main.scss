@@ -1,0 +1,131 @@
+@font-face {
+  font-family:  PF BEAUSANS PRO;
+  src: url(../fonts/UFONTS.COM_PFBEAUSANSPRO-BOLD.ttf);
+}
+
+
+.icon_perso {
+width: 3vh;
+height: 2.5vh
+}
+
+section {
+  height: 100vh;
+    font-family: "PF BEAUSANS PRO";
+}
+
+.header_width > div {
+  width: 180px !important;
+}
+
+.lematch {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/// GDPR POPUP
+.gdpr-popup-expand-info {
+  display: none;
+}
+
+.gdpr-popup-save-pref-label {
+  display: none !important
+}
+
+.gdpr-popup-position-top-right {
+  width: 320px !important;
+  right:6px;
+  top: 28em !important;
+}
+
+.gdpr-popup-blurred-background {
+  display: none;
+}
+
+.gdpr-popup-heading {
+  font-size:1rem;
+}
+
+.gdpr-popup-text{
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.gdpr-popup-btn {
+  padding-top: 0.5em !important;
+  padding-bottom: 0.5em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+///
+
+
+/// MATCH GRID
+.full_container{
+  position: relative;
+  width: 50%;
+  height: 75%;
+  margin: auto;
+}
+
+.top_baner{
+  width: 52vw;
+  position:absolute;
+  top: -3.3vw;
+  left: -20px;
+  margin: auto;
+}
+
+.match_grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 4px solid white;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.team {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.team > img {
+  width: 20vw;
+}
+
+.team > h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.team > img {
+  margin-bottom: 20px
+}
+
+.btn_imprimer {
+  margin-top: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 50px;
+  color: white;
+  background-color: #04d0a9;
+  border: none;
+  font-size: 14px;
+}
+
+.btn_imprimer:hover {
+  opacity: 100;
+  color: #04d0a9;
+  background-color: white;
+  cursor: pointer
+}
+
+body > footer > div.foot-2 > div > div.ml.mt-3 > div.text-center.mb-2 > a:hover {
+  color: white;
+}
