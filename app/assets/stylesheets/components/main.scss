@@ -1,8 +1,13 @@
+// @font-face {
+//   font-family:  "PF BEAUSANS PRO";
+//   src: url(../fonts/PFBEAU-SANSPRO-BOLD.ttf);
+// }
 @font-face {
-  font-family:  PF BEAUSANS PRO;
-  src: url(../fonts/UFONTS.COM_PFBEAUSANSPRO-BOLD.ttf);
+font-family: 'PFBeauSansPro-Bold';
+font-style: normal;
+font-weight: normal;
+src: local('PFBeauSansPro-Bold'), url('UFONTS.COM_PFBEAUSANSPRO-BOLD.woff') format('woff');
 }
-
 
 .icon_perso {
 width: 3vh;
@@ -11,7 +16,7 @@ height: 2.5vh
 
 section {
   height: 100vh;
-    font-family: "PF BEAUSANS PRO";
+  font-family: "PFBeauSansPro-Bold";
 }
 
 .header_width > div {
