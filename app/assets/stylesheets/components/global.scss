@@ -1,28 +1,7 @@
-/*
- * @autor : dynamic creative
- * @date : 2021
- * @version : Bootstrap 4
- */
-
-/* ---------------------------- */
-/*     Mise en page gÃŠnÃŠrale  */
-/* ---------------------------- */
-
-/**/
 #global {max-width:1920px; margin:0 auto; overflow: hidden;}
 .container {max-width: 1260px;}
 .container-600 {max-width: 600px; margin:0 auto;}
 
-.light {font-weight: 200!important;}
-.semi {font-weight: 600;}
-.b_semi b {font-weight: 600;}
-.regular {font-weight: 400;}
-.upper {text-transform: uppercase;}
-
-.dd-table {display: table; width: 100%;}
-.dd-cell {display: table-cell; vertical-align: top;}
-.container-fluid {padding:0;}
-:focus, button:focus { outline: none; }
 
 /*header*/
 header {background:#fff;}
@@ -68,63 +47,11 @@ h1 {font-size:13px;}
   text-align: center;
 }
 
-.titre_1 {font-size:30px; color:#641313; font-weight: 600; text-transform: uppercase;}
-.titre_1 img {margin:0 auto; max-width:290px; height:auto;}
-
-
 /*HOME*/
 section {position:relative; height:calc(55vw); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1623073392/lp_euro/background_vd5fas.jpg) center top no-repeat; background-size: cover;}
 // section {position:relative; height:calc(160vh - 40px); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1623138630/lp_euro/background_test1_ltf74f.jpg) center top no-repeat; background-size: contain;}. /// CALC VH
-
-// #slider_quiz {}
-// #slider_quiz .item .ct {width:600px; margin:30px auto; background:#fff; border-radius: 25px; overflow: hidden; border:3px solid #ffcd62; text-align: center; padding:20px 30px;
-// -webkit-box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
-// box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);}
-// .question-num {font-size:26px; font-weight: 600;}
-// .question-num span {color:#80b7c5;}
-// .question-titre {font-size:17px; font-weight: 600;}
-// .question-option {font-size:10px; font-style: italic; font-weight: 600;}
-// .question-sstitre {color:#81b9c7; font-size:17px; font-weight: bold; text-transform: uppercase;}
-
-// .question-labels {position: relative;}
-// .btn-question {position: absolute; bottom:-30px; left:0; border:none; background: none; font-size:10px; padding-left:15px; cursor: pointer; font-weight: 600;}
-// .btn-question img {position: absolute; top:50%; transform: translateY(-50%); left:0;}
-
-// .esp {margin:34px 0 20px;}
-
-// .ch {display:none;}
-
-/*hack center slide*/
-// .slick-track {
-//   display: flex;
-// }
-// .slick-track .slick-slide {
-//   display: flex;
-//   height: auto;
-//   align-items: center;
-//   justify-content: center;
-// }
 
 /*bouton*/
 .btn-back {display: inline-block; background:#ffc928; border-radius:6px; padding:5px 10px; font-size:11px; font-weight: 600; transition:all 350ms ease;color:#3c3c3c;}
 // .btn-back span[class*="icon-"] {vertical-align: middle; font-size:22px; padding-left:10px;color:#3c3c3c;}
 .btn-back:hover {text-decoration: none; background:#3c3c3c; color:#ffc928;}
-
-.btn-type1 {display: inline-block; border:none; background: #81b9c7; border-radius:50px; color:#fff; padding:11px 30px; font-weight: 600; cursor: pointer; transition: all 350ms ease;}
-.btn-type1:hover {text-decoration: none; background:#ffc928; color:#000;}
-
-/*CU LABEL*/
-.cu-quiz label { height:80px; margin:5px;
-  border: 2px solid #fff; border-radius:15px; overflow: hidden;
-  background: #ba9160;
-  color: #fff; font-size:13px; font-weight: 600; -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,0.06); box-shadow: 0 0 5px 5px rgba(0,0,0,0.06); transition: all 350ms ease;
-}
-.cu-quiz input:checked + label, .cu-quiz input + label:hover {
-    color: #3c3c3c; border-color:#3c3c3c;
-}
-.w3 label {width:130px;}
-.w5 label {width:106px;}
-.w2 label {width:195px;}
-
-// .cu-quiz-img .cu-quiz label {height:auto;}
-// .fd-bl .cu-quiz label {background:#fff;}
