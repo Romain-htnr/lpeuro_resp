@@ -1,93 +1,3 @@
-@media screen and (max-width: 640px) {
-  .full_container {
-    width: 90% !important;
-  }
-
-  .top_baner {
-    width: 104% !important;
-    top: -5.5vw !important
-  }
-
-  .vs_1 {
-    left: 46% !important;
-    width: 43px !important;
-    height: 32px !important;
-  }
-
-  .vs_2 {
-    left: 46% !important;
-    width: 43px !important;
-    height: 32px !important;
-    top: 28px !important;
-  }
-
-  .team > img {
-    margin-top: 20px;
-  }
-
-  // .container-600 {
-  //   width: 90% !important;
-  // }
-
-  .logo_small {
-    margin-right: -20% !important
-  }
-
-  .team > img {
-    width: 180px !important
-  }
-
-  .btn_historique {
-    width: 30vw !important;
-    font-size: 2vw !important;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .vs_2 {
-    width: 10vw !important;
-    height: 7vw !important;
-    top: 18px !important;
-  }
-
-  .vs_1 {
-    width: 10vw !important;
-    height: 7vw !important;
-    top: 219px !important;
-    // left: 425px !important;
-  }
-
-  .team > img {
-    width: 38vw !important
-  }
-
-  .btn_imprimer{
-    font-size: 2.5vw !important;
-  }
-
-  .team > h2 {
-    font-size : 18px !important
-  }
-
-  .match_grid {
-    height: 428px !important
-  }
-
-  .hide {
-    display: block !important;
-    width: 89vw !important;
-    top: -12vw !important;
-  }
-
-  .d_n {
-    display: none;
-  }
-
-  .full_container{
-    margin-top: 19% !important
-  }
-}
-
 @media screen and (min-width: 1660px) {
   .full_container {
     width: 900px !important
@@ -119,15 +29,96 @@
   .hide2 {
     display: block !important;
     width: 926px !important;
-    // position: absolute;
     top: -64px !important;
-    // left: -12px;
-    // margin: auto;
   }
 
   .d_n {
     display: none !important;
   }
-// section {position:relative; height:calc(60vw); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1623073392/lp_euro/background_vd5fas.jpg) center top no-repeat; background-size: cover !important;}
+}
 
+
+@media screen and (max-width: 640px) {
+  .full_container {
+    width: 90% !important;
+  }
+
+  .top_baner {
+    width: 104% !important;
+    top: -5.5vw !important
+  }
+
+  .vs_1 {
+    left: 46% !important;
+    width: 43px !important;
+    height: 32px !important;
+  }
+
+  .vs_2 {
+    left: 46% !important;
+    width: 43px !important;
+    height: 32px !important;
+    top: 28px !important;
+  }
+
+  .team > img {
+    margin-top: 20px;
+  }
+
+  .logo_small {
+    margin-right: -20% !important
+  }
+
+  .team > img {
+    width: 180px !important
+  }
+
+  .btn_historique {
+    width: 30vw !important;
+    font-size: 2vw !important;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .vs_2 {
+    width: 10vw !important;
+    height: 7vw !important;
+    top: 18px !important;
+  }
+
+  .vs_1 {
+    width: 10vw !important;
+    height: 7vw !important;
+    top: 219px !important;
+  }
+
+  .team > img {
+    width: 38vw !important
+  }
+
+  .btn_imprimer{
+    font-size: 2.5vw !important;
+  }
+
+  .team > h2 {
+    font-size : 18px !important
+  }
+
+  .match_grid {
+    height: 428px !important
+  }
+
+  .hide {
+    display: block !important;
+    width: 89vw !important;
+    top: -12vw !important;
+  }
+
+  .d_n {
+    display: none;
+  }
+
+  .full_container{
+    margin-top: 19% !important
+  }
 }
