@@ -54,6 +54,10 @@ section {
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
+
+.gdpr-popup-save-pref-checkbox {
+  display: none !important
+}
 ///
 
 
@@ -168,6 +172,8 @@ section {
   cursor: pointer;
   opacity: 100%;
 }
+
+button:focus {outline:0 !important}
 
 body > footer > div.foot-2 > div > div.ml.mt-3 > div.text-center.mb-2 > a:hover {
   color: white;
