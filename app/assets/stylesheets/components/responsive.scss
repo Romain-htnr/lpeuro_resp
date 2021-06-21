@@ -73,10 +73,13 @@
     width: 180px !important
   }
 
-  // .btn_historique {
-  //   width: 30vw !important;
-  //   font-size: 2vw !important;
-  // }
+  .d_n2 {
+    display: none !important;
+  }
+
+  .hide3 {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -115,7 +118,7 @@
   }
 
   .d_n {
-    display: none;
+    display: none !important;
   }
 
   .full_container{
