@@ -78,7 +78,16 @@
   }
 
   .hide3 {
-    display: block;
+    display: block !important;
+  }
+
+  .d_btn {
+    display: none !important;
+  }
+
+  .hide_btn {
+    display: inline !important;
+    // text-decoration: none !important
   }
 }
 
