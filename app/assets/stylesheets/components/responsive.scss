@@ -49,16 +49,16 @@
   }
 
   .vs_1 {
-    left: 46% !important;
-    width: 43px !important;
-    height: 32px !important;
+    left: 47% !important;
+    width: 37px !important;
+    height: 27px !important;
   }
 
   .vs_2 {
-    left: 46% !important;
-    width: 43px !important;
-    height: 32px !important;
-    top: 28px !important;
+    left: 47% !important;
+    width: 37px !important;
+    height: 27px !important;
+    top: 5vw !important;
   }
 
   .team > img {
@@ -88,19 +88,23 @@
   .hide_btn {
     display: inline !important;
   }
+
+  .team > h2 {
+    font-size: 22px !important;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .vs_2 {
-    width: 10vw !important;
-    height: 7vw !important;
-    top: 18px !important;
+    width: 7vw !important;
+    height: 5vw !important;
+    top: 22px !important;
   }
 
   .vs_1 {
-    width: 10vw !important;
-    height: 7vw !important;
-    top: 219px !important;
+    width: 7vw !important;
+    height: 5vw !important;
+    top: 220px !important;
   }
 
   .team > img {
