@@ -52,13 +52,14 @@
     left: 47% !important;
     width: 37px !important;
     height: 27px !important;
+    top: 283px !important;
   }
 
   .vs_2 {
     left: 47% !important;
     width: 37px !important;
     height: 27px !important;
-    top: 5vw !important;
+    top: 6.5vw !important;
   }
 
   .team > img {
@@ -92,19 +93,23 @@
   .team > h2 {
     font-size: 22px !important;
   }
+
+  .high_country {
+    height: 36px !important;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .vs_2 {
     width: 7vw !important;
     height: 5vw !important;
-    top: 22px !important;
+    top: 7.5vw !important;
   }
 
   .vs_1 {
     width: 7vw !important;
     height: 5vw !important;
-    top: 220px !important;
+    top: 226px !important;
   }
 
   .team > img {
@@ -135,5 +140,9 @@
 
   .full_container{
     margin-top: 19% !important
+  }
+
+  .high_country {
+    height: 26px !important;
   }
 }
