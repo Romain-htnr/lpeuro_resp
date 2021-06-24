@@ -10,6 +10,25 @@ a {
 a:hover {
   text-decoration: none !important
 }
+
+.desktopOnly > a {
+  color: white;
+}
+
+.mobileOnly > a {
+  color: white;
+}
+
+.desktopOnly:hover > a {
+  background-color: white;
+  color: #04d0a9;
+}
+
+.mobileOnly:hover > a {
+  background-color: white;
+  color: #04d0a9;
+}
+
 .icon_perso {
   width: 30px;
 }
@@ -28,53 +47,21 @@ a:hover {
 }
 
 .row {
-    // display: -ms-flexbox;
-    // display: flex;
-    // -ms-flex-wrap: wrap;
-    // flex-wrap: wrap;
     margin-right: 0 !important;
-    // margin-left: -15px;
 }
 
-/// GDPR POPUP
-// .gdpr-popup-expand-info {
-//   display: none;
-// }
+/* Classe à placer sur le CTA visible sur mobile uniquement */
 
-// .gdpr-popup-save-pref-label {
-//   display: none !important
-// }
+.mobileOnly {
+    display: none ;
+}
 
-// .gdpr-popup-position-top-right {
-//   width: 320px !important;
-//   right:6px;
-//   top: 34em !important;
-// }
+/* Classe à placer sur le CTA visible sur desktop uniquement */
 
-// .gdpr-popup-blurred-background {
-//   display: none;
-// }
+.desktopOnly {
+    display: block;
+}
 
-// .gdpr-popup-heading {
-//   font-size:1rem;
-// }
-
-// .gdpr-popup-text{
-//   margin-top: 0.5rem;
-//   margin-bottom: 0;
-// }
-
-// .gdpr-popup-btn {
-//   padding-top: 0.5em !important;
-//   padding-bottom: 0.5em !important;
-//   padding-left: 1em !important;
-//   padding-right: 1em !important;
-// }
-
-// .gdpr-popup-save-pref-checkbox {
-//   display: none !important
-// }
-///
 
 
 /// MATCH GRID
@@ -114,6 +101,7 @@ a:hover {
 
 .team > img {
   width: 220px;
+  margin-bottom: 20px
 }
 
 .high_country {
@@ -159,7 +147,7 @@ a:hover {
 }
 
 .btn_imprimer {
-  margin-top: 20px;
+  margin: auto;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 14px;
@@ -191,7 +179,7 @@ a:hover {
   cursor: pointer !important
 }
 
-button:focus {outline:0 !important}
+// button:focus {outline:0 !important}
 
 body > footer > div.foot-2 > div > div.ml.mt-3 > div.text-center.mb-2 > a:hover {
   color: white;
