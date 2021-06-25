@@ -38,11 +38,7 @@ footer h3 {font-size:13px; color:#fff; font-weight: 600; margin-bottom:15px;}
 h1 {font-size:13px;}
 
 .titre-jeux {
-  // font-size:40px;
-  // color:#fcf9d8;
-  // text-transform: uppercase;
   height:100px;
-  // font-weight: 600;
   padding:10px;
   text-align: center;
 }
@@ -53,5 +49,4 @@ section {position:relative; height:calc(55vw); min-height:690px; background:url(
 
 /*bouton*/
 .btn-back {display: inline-block; background:#ffc928; border-radius:6px; padding:5px 10px; font-size:11px; font-weight: 600; transition:all 350ms ease;color:#3c3c3c;}
-// .btn-back span[class*="icon-"] {vertical-align: middle; font-size:22px; padding-left:10px;color:#3c3c3c;}
 .btn-back:hover {text-decoration: none; background:#3c3c3c; color:#ffc928;}
