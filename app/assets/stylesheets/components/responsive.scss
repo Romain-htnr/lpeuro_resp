@@ -11,20 +11,6 @@
     height:calc(140rem) !important;
   }
 
-  // .match_grid {
-  //   height: 75vh !important;
-  // }
-
-  // .vs_2 {
-  //   top: 50px !important;
-  //   left: 425px !important;
-  // }
-
-  // .vs_1 {
-  //   top: 39vh !important;
-  //   left: 425px !important;
-  // }
-
   .match_width {
     width: 160px !important;
     height: 80px !important;
@@ -35,21 +21,9 @@
     width: 926px !important;
     top: -64px !important;
   }
-
-  .d_n {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 835px) {
-  // .mobileOnly {
-  //   display: block !important;
-  //   color: red !important;
-  // }
-
-  // .desktopOnly {
-  //   display: none !important;
-  // }
   #imprimante {
     margin-left: 85% !important;
   }
@@ -86,28 +60,21 @@
     width: 180px !important
   }
 
-
-  .d_n2 {
-    display: none !important;
-  }
-
   .hide3 {
     display: block !important;
   }
-
-  .d_btn {
-    display: none !important;
-    z-index: -1000 !important;
-  }
-
-  // .team > h2 {
-  //   font-size: 22px !important;
-  // }
 
   .high_country {
     height: 36px !important;
   }
 }
+
+@media screen and (max-width: 610px) {
+  .d_n {
+    display: none !important;
+  }
+}
+
 
 @media screen and (max-width: 510px) {
   .team > img {
@@ -118,22 +85,10 @@
     font-size: 2.5vw !important;
   }
 
-  // .team > h2 {
-  //   font-size : 18px !important;
-  // }
-
-  // .match_grid {
-  //   height: 250px !important;
-  // }
-
   .hide {
     display: block !important;
     width: 89vw !important;
     top: -12vw !important;
-  }
-
-  .d_n {
-    display: none !important;
   }
 
   .high_country {
