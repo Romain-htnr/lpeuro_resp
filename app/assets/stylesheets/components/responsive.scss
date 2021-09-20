@@ -1,15 +1,19 @@
 @media screen and (min-width: 1660px) {
   .full_container {
-    width: 900px !important;
+    width: 80% !important;
   }
 
   .team > img {
     width: 360px !important;
   }
 
-  .match_grid {
-    height: 75vh !important;
+  section {
+    height:calc(140rem) !important;
   }
+
+  // .match_grid {
+  //   height: 75vh !important;
+  // }
 
   // .vs_2 {
   //   top: 50px !important;
@@ -46,6 +50,11 @@
   // .desktopOnly {
   //   display: none !important;
   // }
+  #imprimante {
+    margin-left: 85% !important;
+  }
+
+  .titre-jeux {font-size:30px !important}
 
   .match_grid {
     grid-template-columns: 1fr 1fr !important;
@@ -59,20 +68,6 @@
     height: calc(160rem) !important;
   }
 
-}
-
-@media screen and (max-width: 640px) {
-  .full_container {
-    width: 90% !important;
-  }
-
-  // .top_baner {
-  //   width: 104% !important;
-  //   top: -5.5vw !important
-  // }
-  .titre-jeux {
-
-  }
 
   .team > img {
     margin-top: 10px !important;
@@ -143,10 +138,6 @@
 
   .high_country {
     height: 26px !important;
-  }
-
-  #imprimante {
-    margin-left: 50% !important;
   }
 }
 
