@@ -38,14 +38,17 @@ footer h3 {font-size:13px; color:#fff; font-weight: 600; margin-bottom:15px;}
 h1 {font-size:13px;}
 
 .titre-jeux {
-  margin-top: 20px;
-  height:100px;
+  margin-top: 80px;
+  color: #fcf9d8;
+  font-size: 40px;
+  letter-spacing: 0.5rem;
+  font-family: "Agenda";
   padding:10px;
   text-align: center;
 }
 
 /*HOME*/
-section {position:relative; height:calc(100rem); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1631892531/LP_REGION/FOND_yzhrgy.png) center top no-repeat; background-size: cover;}
+section {position:relative; height:calc(110rem); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1631892531/LP_REGION/FOND_yzhrgy.png) center top no-repeat; background-size: cover;}
 // section {position:relative; height:calc(160vh - 40px); min-height:690px; background:url(https://res.cloudinary.com/dunk/image/upload/v1623138630/lp_euro/background_test1_ltf74f.jpg) center top no-repeat; background-size: contain;}. /// CALC VH
 
 /*bouton*/

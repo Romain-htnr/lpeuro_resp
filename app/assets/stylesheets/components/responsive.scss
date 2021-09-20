@@ -37,15 +37,28 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .mobileOnly {
-    display: block !important;
-    color: red !important;
+@media screen and (max-width: 835px) {
+  // .mobileOnly {
+  //   display: block !important;
+  //   color: red !important;
+  // }
+
+  // .desktopOnly {
+  //   display: none !important;
+  // }
+
+  .match_grid {
+    grid-template-columns: 1fr 1fr !important;
   }
 
-  .desktopOnly {
-      display: none !important;
+  .full_container {
+    width: 100% !important
   }
+
+  section {
+    height: calc(160rem) !important;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -53,24 +66,13 @@
     width: 90% !important;
   }
 
-  .top_baner {
-    width: 104% !important;
-    top: -5.5vw !important
+  // .top_baner {
+  //   width: 104% !important;
+  //   top: -5.5vw !important
+  // }
+  .titre-jeux {
+
   }
-
-  // .vs_1 {
-  //   left: 47% !important;
-  //   width: 37px !important;
-  //   height: 27px !important;
-  //   top: 283px !important;
-  // }
-
-  // .vs_2 {
-  //   left: 47% !important;
-  //   width: 37px !important;
-  //   height: 27px !important;
-  //   top: 6.5vw !important;
-  // }
 
   .team > img {
     margin-top: 10px !important;
@@ -80,9 +82,15 @@
     margin-right: -20% !important;
   }
 
+  #imprimante {
+    width: 120px !important;
+  }
+
+
   .team > img {
     width: 180px !important
   }
+
 
   .d_n2 {
     display: none !important;
@@ -97,28 +105,16 @@
     z-index: -1000 !important;
   }
 
-  .team > h2 {
-    font-size: 22px !important;
-  }
+  // .team > h2 {
+  //   font-size: 22px !important;
+  // }
 
   .high_country {
     height: 36px !important;
   }
 }
 
-@media screen and (max-width: 470px) {
-  .vs_2 {
-    width: 7vw !important;
-    height: 5vw !important;
-    top: 7vw !important;
-  }
-
-  .vs_1 {
-    width: 7vw !important;
-    height: 5vw !important;
-    top: 226px !important;
-  }
-
+@media screen and (max-width: 510px) {
   .team > img {
     width: 38vw !important
   }
@@ -127,13 +123,13 @@
     font-size: 2.5vw !important;
   }
 
-  .team > h2 {
-    font-size : 18px !important;
-  }
+  // .team > h2 {
+  //   font-size : 18px !important;
+  // }
 
-  .match_grid {
-    height: 250px !important;
-  }
+  // .match_grid {
+  //   height: 250px !important;
+  // }
 
   .hide {
     display: block !important;
@@ -145,12 +141,12 @@
     display: none !important;
   }
 
-  .full_container{
-    margin-top: 40% !important;
-  }
-
   .high_country {
     height: 26px !important;
+  }
+
+  #imprimante {
+    margin-left: 50% !important;
   }
 }
 
