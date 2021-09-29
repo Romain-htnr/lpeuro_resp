@@ -1,25 +1,48 @@
-@media screen and (min-width: 1660px) {
-  .full_container {
-    width: 80% !important;
+@media screen and (max-width: 340px) {
+  .hide_small {
+    display: none !important;
   }
 
+  .ct-header {
+    padding: 0 !important;
+  }
+
+  body > header > div > div > div:nth-child(2) {
+    width: 140px !important;
+  }
+
+  body > header > div > div > div.logo.logo_small > div > div {
+    margin-left: 10px !important;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .btn-back {
+    font-size: 0 !important
+  }
+}
+
+
+@media screen and (max-width: 510px) {
   .team > img {
-    width: 360px !important;
+    width: 38vw !important
   }
 
-  section {
-    height:calc(140rem) !important;
+  .btn_imprimer {
+    font-size: 2.5vw !important;
   }
 
-  .match_width {
-    width: 160px !important;
-    height: 80px !important;
-  }
-
-  .hide2 {
+  .hide {
     display: block !important;
-    width: 926px !important;
-    top: -64px !important;
+    width: 89vw !important;
+    top: -12vw !important;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .d_n {
+    display: none !important;
   }
 }
 
@@ -30,7 +53,7 @@
 
   .titre-jeux {font-size:30px !important}
 
-  .match_grid {
+  .timbre_grid {
     grid-template-columns: 1fr 1fr !important;
   }
 
@@ -60,61 +83,21 @@
     width: 180px !important
   }
 
-  .hide3 {
+  .hide2 {
     display: block !important;
-  }
-
-  .high_country {
-    height: 36px !important;
   }
 }
 
-@media screen and (max-width: 610px) {
-  .d_n {
-    display: none !important;
+@media screen and (min-width: 1660px) {
+  .full_container {
+    width: 80% !important;
   }
 
-  .underlined_brk {
-    display: block !important;
-  }
-
-}
-
-
-@media screen and (max-width: 510px) {
   .team > img {
-    width: 38vw !important
+    width: 360px !important;
   }
 
-  .btn_imprimer{
-    font-size: 2.5vw !important;
-  }
-
-  .hide {
-    display: block !important;
-    width: 89vw !important;
-    top: -12vw !important;
-  }
-
-  .high_country {
-    height: 26px !important;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .hide_small {
-    display: none !important;
-  }
-
-  .ct-header {
-    padding: 0 !important;
-  }
-
-  body > header > div > div > div:nth-child(2) {
-    width: 140px !important;
-  }
-
-  body > header > div > div > div.logo.logo_small > div > div {
-    margin-left: 10px !important;
+  section {
+    height:calc(140rem) !important;
   }
 }

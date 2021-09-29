@@ -67,13 +67,12 @@ span.background {
         position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
         top: 44%; left: -5px; right: 0; bottom: 0;
         width: 100%;
-        // height: 48px;
         z-index: -1;
     }
 }
 
-/// MATCH GRID
-.full_container{
+/// TIMBRE GRID
+.full_container {
   position: relative;
   width: 800px;
   margin-left: auto;
@@ -96,7 +95,7 @@ span.background {
   margin: auto;
 }
 
-.match_grid {
+.timbre_grid {
   display: grid;
   margin-left: auto;
   margin-right: auto;
@@ -116,10 +115,6 @@ span.background {
   box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.2);
 }
 
-.high_country {
-  height: 56px;
-}
-
 .team > h2 {
   font-family: "Montserrat";
   color: black;
@@ -131,21 +126,10 @@ span.background {
   display: none;
 }
 
+
 .hide2 {
   display: none;
 }
-
-.hide3 {
-  display: none;
-}
-
-.hide_btn {
-  display: none;
-}
-
-  .underlined_brk {
-    display: none;
-  }
 
 .btn_imprimer {
   margin: auto;
@@ -154,7 +138,6 @@ span.background {
   padding-left: 28px;
   padding-right: 28px;
   border-radius: 6px;
-  // color: black !important;
   background-color: #ffc928;
   border: none;
   font-size: 14px;
